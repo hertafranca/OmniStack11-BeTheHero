@@ -1,0 +1,42 @@
+.new-incidente-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-incidente-container .content {
+  background: #ffcabd;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  height: 75%;
+  padding: 75px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-incidente-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+.new-incidente-container .content section h1 {
+  margin: 40px 32px;
+  font-size: 32px;
+}
+.new-incidente-container .content section p {
+  font-size: 18px;
+  color: #7159c1;
+  line-height: 32px;
+}
+.new-incidente-container .content form {
+  width: 100%;
+  max-width: 450px;
+  padding: 3px 5px;
+}
+.new-incidente-container .content form input,
+.new-incidente-container .content form textarea {
+  margin-bottom: 5px;
+}
